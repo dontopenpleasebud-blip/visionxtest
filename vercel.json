@@ -1,3 +1,12 @@
 {
-  "routes": [{ "src": "/visionx/(.*)", "dest": "/" }]
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/visionx"
+    },
+    {
+      "src": "/visionx/(.*)",
+      "dest": "/visionx/$1"
+    }
+  ]
 }
