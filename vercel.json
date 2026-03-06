@@ -1,9 +1,12 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/",
-      "destination": "/visionx"
-    },
+      "destination": "/visionx",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
     {
       "source": "/visionx/assets/:path*",
       "destination": "/assets/:path*"
