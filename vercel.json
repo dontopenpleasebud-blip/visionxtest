@@ -1,11 +1,11 @@
 {
   "rewrites": [
     {
-      "source": "/visionx/assets/(.*)",
-      "destination": "/assets/$1"
+      "source": "/visionx/assets/:path*",
+      "destination": "/assets/:path*"
     },
     {
-      "source": "/visionx/(.*)",
+      "source": "/visionx/:path*",
       "destination": "/index.html"
     }
   ]
