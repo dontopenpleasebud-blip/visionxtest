@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/",
+      "destination": "/visionx"
+    },
+    {
       "source": "/visionx/assets/:path*",
       "destination": "/assets/:path*"
     },
